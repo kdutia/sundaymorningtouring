@@ -24,6 +24,7 @@ body {
     top: 0;
     align-self: center;
     margin-top: -3rem;
+    text-align: right;
 }
 
 .nav ul {
@@ -76,14 +77,14 @@ li {
     }
     
     .nav {
-        width: 60%;
+        width: 80%;
+        margin: 0;
+        padding: 10px 20px;
+        position: static;
+        z-index: 1000;
+        align-self: auto;
         margin-left: auto;
         margin-right: auto;
-        border-bottom: 1px solid #000;
-        padding: 15px 20px;
-        position: static;
-        align-self: stretch;
-        margin-top: 0;
     }
     
     .nav ul {
@@ -104,6 +105,13 @@ li {
     
     main {
         width: 100%;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    
+    .container {
+        padding: 2rem;
+        margin-bottom: 0;
     }
 }
 
