@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-    background-color: rgb(255, 165, 0.3);
+    background-color: rgb(203, 108, 230, 0.3);
 }
 
 .nav a {
@@ -58,8 +58,9 @@ a:hover {
 .nav a.active {
     text-decoration: underline;
     text-decoration-thickness: 2px;
-    text-decoration-color: rgb(255, 165, 1);
+    text-decoration-color: rgb(203, 108, 230, 1);
 }
+
 
 main {
     grid-area: main;
